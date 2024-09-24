@@ -1,3 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo+Play+Display&display=swap");
+
+
+
+
+
 body {
-    background-color: #2E203E;
+    background-color:rgb(219, 205, 211)
 }
+
+#main-title{
+
+    color:black;
+    font-family: 'Bungee Tint';
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+h2{
+
+  color:black;
+  font-family: 'Bungee Tint';
+
+}
+
+#bio{
+  font-family: "Noto Serif Display";
+  
+}
+
+/* Ensure that the page container takes the full height of the viewport */
+.page-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 80vh; /* Full viewport height */
+  text-align: center; /* Ensure text is centered */
+}
+
+#certificate {
+  width: 50%;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  font-family: 'Bungee Tint';
+}
+
+
+
+
+
+
+ 
