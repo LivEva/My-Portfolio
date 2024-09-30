@@ -1,15 +1,16 @@
-const ProjectCards = () => {
+const ProjectCards = ({ project }) => {
 
     return (
 
-        <>
+        <div className="project-container">
 
-        <h2>Hello, this is the the ProjectCards</h2>
+        <img src={project.project_images} alt="Image of project" className="image"/>
+        <h2>{project.name}</h2>
+        <p>{project.brief_description}</p>
 
-        </>
+        </div>
         
     )
-
 
 }
 

@@ -1,14 +1,20 @@
 import ProjectCards from "./ProjectCards";
+import projects from './data/projects'
+
 
 const ProjectLists = () => {
 
     return (
 
-        <>
+        <div className="project-list">
 
-        <ProjectCards />
-        
-        </>
+            {projects.map((project, id) => {
+
+                return <ProjectCards key={id} project={project} />
+
+            })}
+
+        </div>
     )
 
 }

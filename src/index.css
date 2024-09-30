@@ -57,6 +57,41 @@ h2{
   font-family: 'Bungee Tint';
 }
 
+.image{
+
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.image:hover{
+    transform: translateY(-5px); /* Moves the card up slightly */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increases shadow */
+    background-color: #f9f9f9; /* Optional: Changes background color */
+}
+
+/* Wrapper for multiple ProjectCards */
+.project-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping if there are too many items */
+  gap: 5px; /* Optional: Adds space between the cards */
+  justify-content: space-around; /* Optional: Aligns the cards horizontally */
+  padding: 20px;
+}
+
+/* Style for each individual project card */
+.project-container {
+  flex: 1 1 300px; /* Grow and shrink, min width of 300px */
+  max-width: 500px; /* Maximum width for each card */
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 
 

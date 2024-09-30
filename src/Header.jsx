@@ -1,4 +1,5 @@
 import 'animate.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -7,7 +8,7 @@ const Header = () => {
 
    <div id='main-title'>
    
-   <h1 className="animate__animated animate__lightSpeedInRight">. OLIVIA GUEST .</h1>
+ <h1 className="animate__animated animate__lightSpeedInRight">  <Link to="/Home">. OLIVIA GUEST .</Link></h1>
 
    </div>
 
