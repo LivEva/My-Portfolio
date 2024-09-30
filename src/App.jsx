@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import Footer from './Footer';
-import Header from './Header'
-import HomeScreen from './HomeScreen';
-import NavBar from './NavBar'
+import Footer from './components/main/Footer';
+import Header from './components/main/Header'
+import HomeScreen from './components/screens/HomeScreen';
+import NavBar from './components/main/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProjectLists from './ProjectsList';
+import ProjectLists from './components/screens/ProjectsList';
 
 
 function App() {
