@@ -24,10 +24,10 @@ const NavBar = () => {
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <button className="nav-link active"><Link to="/HomeScreen"></Link>Home</button>
+              <button className="nav-link active"><Link to="/Home">Home</Link></button>
             </li>
             <li className="nav-item">
-            <button className="nav-link"><Link to="/ProjectsList"></Link>Projects</button>
+            <button className="nav-link"><Link to="/Projects">Projects</Link></button>
             </li>
           </ul>
         </div>
