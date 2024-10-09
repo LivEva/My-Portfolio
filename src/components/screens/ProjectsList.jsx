@@ -1,5 +1,5 @@
-import ProjectCards from "../cards/ProjectCards";
-import projects from '../../data/projects'
+
+import PlantAppCard from "../cards/PlantAppCard";
 
 
 const ProjectLists = () => {
@@ -8,11 +8,9 @@ const ProjectLists = () => {
 
         <div className="project-list">
 
-            {projects.map((project, id) => {
+            <PlantAppCard />
 
-                return <ProjectCards key={id} project={project} />
-
-            })}
+          
 
         </div>
     )

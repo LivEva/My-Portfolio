@@ -9,7 +9,9 @@
 
 
 body {
-    background-color:rgb(219, 205, 211)
+
+    background-image: url('../CSS/background.jpg');
+    background-size: 100%;
 }
 
 #main-title{
@@ -19,6 +21,10 @@ body {
     margin: 10px;
     padding: 10px;
     
+}
+
+.entire-container{
+  background-image: url('../CSS/background.jpg');
 }
 
 h2{

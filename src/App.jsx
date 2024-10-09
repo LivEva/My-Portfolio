@@ -6,13 +6,14 @@ import NavBar from './components/main/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectLists from './components/screens/ProjectsList';
 import PlantAppPage from './components/screens/PlantAppPage';
+import TeaPage from './components/screens/TeaPage';
 
 
 function App() {
 
   return (
 
-    <>
+    <div className='entire-container'>
 
     <Header />
 
@@ -26,13 +27,15 @@ function App() {
 
      <Route path='/MyPlantApp' element={<PlantAppPage/>}/>
 
+     <Route path='/ThatsTheTea' element={<TeaPage/>}/>
+
     </Routes>
 
     <Footer />
 
 
 
-    </>
+    </div>
   )
 
 }
