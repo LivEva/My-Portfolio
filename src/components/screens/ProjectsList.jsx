@@ -1,5 +1,6 @@
 
 import PlantAppCard from "../cards/PlantAppCard";
+import TeaWebsiteCard from "../cards/TeaWebsiteCard";
 
 
 const ProjectLists = () => {
@@ -9,6 +10,8 @@ const ProjectLists = () => {
         <div className="project-list">
 
             <PlantAppCard />
+
+            <TeaWebsiteCard/>
 
           
 

@@ -1,0 +1,58 @@
+.plant-app-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-aligns the content horizontally */
+    padding: 20px;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: auto; /* Centers the container */
+}
+
+.app-header {
+    text-align: center; /* Centers the title and app type */
+}
+
+.app-type {
+    font-size: 1.2em; /* Slightly larger font for the app type */
+    color: gray; /* Style the app type text color */
+}
+
+.app-image-description {
+    text-align: center; /* Center-aligns the image and brief description */
+    margin: 20px 0; /* Adds vertical space around this section */
+}
+
+.app-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+}
+
+.brief-description {
+    font-style: italic; /* Style for brief description */
+    margin-top: 10px; /* Space above the brief description */
+}
+
+.app-details {
+    text-align: left; /* Aligns details text to the left */
+    width: 100%; /* Ensures the details take full width */
+    margin-top: 20px; /* Adds space above the details section */
+}
+
+.logos-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align logos horizontally */
+    flex-wrap: wrap; /* Allow logos to wrap to the next line on smaller screens */
+    margin-top: 20px; /* Space above the logos */
+    gap: 20px; /* Space between logos */
+}
+
+.logo {
+    max-width: 80px; /* Limit the size of logos */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Scale up logo on hover for effect */
+}
+
