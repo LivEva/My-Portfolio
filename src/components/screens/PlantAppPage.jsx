@@ -15,8 +15,6 @@ const PlantAppPage = () => {
 
             <PlantAppPageContent key={id} appInfo={appInfo}/>
 
-            
-            
         )
 
 

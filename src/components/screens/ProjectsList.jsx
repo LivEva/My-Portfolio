@@ -13,8 +13,6 @@ const ProjectLists = () => {
 
             <TeaWebsiteCard/>
 
-          
-
         </div>
     )
 
