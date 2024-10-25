@@ -1,0 +1,50 @@
+.certification-container{
+    background-color: bisque;
+
+    
+}
+
+
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.certifications{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.certificate-image {
+  flex: 1 2 100px; /* Grow and shrink, min width of 300px */
+  max-width: 500px; /* Maximum width for each card */
+  border: 1px solid #ddd;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  @media (max-width: 768px) {
+    .certificate-image {
+        max-width: 70%; /* Adjust max width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .certificate-image {
+        max-width: 100%; /* Full width on very small screens */
+        
+    }
+}
+
+
