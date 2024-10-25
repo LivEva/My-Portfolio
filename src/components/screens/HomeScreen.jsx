@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import profile from '../../assets/profilePicture.jpg'
+import '../../CSS/home.css'
 
 
 const HomeScreen = () => {
@@ -7,10 +9,12 @@ const HomeScreen = () => {
 
     return (
         <div className="page-container">
+              <h2>Hello...</h2>
             <div className="content-wrap">
-                <h2>Personal Profile</h2>
+                <img src={profile} className='profile-picture' />
+
                 <p id='bio'>My name is Olivia, and I am a Junior Software Developer.</p>
-                <img id='certificate' src="/src/assets/certificate.png" alt="" />
+                
             </div>
 
            

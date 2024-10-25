@@ -1,0 +1,69 @@
+/* Container for the entire page */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f7f9fc; /* Light background color for better readability */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Main content wrapper */
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Profile picture styling */
+.profile-picture {
+    width: 100%;
+    max-width: 150px; /* Limit the max width */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 50%; /* Circular profile picture */
+    border: 3px solid #4a90e2; /* Optional border color */
+    object-fit: cover; /* Cover the area without stretching */
+}
+
+/* Bio paragraph */
+#bio {
+    font-size: 1.1rem;
+    color: #333; /* Darker color for readability */
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Heading styling */
+.page-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 10px;
+    }
+
+    .content-wrap {
+        padding: 15px;
+    }
+
+    .profile-picture {
+        max-width: 120px; /* Smaller profile picture on mobile */
+    }
+
+    #bio {
+        font-size: 1rem;
+    }
+}
