@@ -10,6 +10,7 @@ const Header = () => {
    
  <h1 className="animate__animated animate__lightSpeedInRight">  <Link to="/">. OLIVIA GUEST .</Link></h1>
 
+
    </div>
 
    )

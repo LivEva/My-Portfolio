@@ -4,9 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    height: 100vh;
-    background-color: #f7f9fc; /* Light background color for better readability */
+    height: 100vw;
+    background-color: #ebedef; /* Light background color for better readability */
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -27,10 +26,9 @@
 /* Profile picture styling */
 .profile-picture {
     width: 100%;
-    max-width: 150px; /* Limit the max width */
+    max-width: 300px; /* Limit the max width */
     height: auto; /* Keep aspect ratio */
-    border-radius: 50%; /* Circular profile picture */
-    border: 3px solid #4a90e2; /* Optional border color */
+    border-radius: 25%; /* Circular profile picture */
     object-fit: cover; /* Cover the area without stretching */
 }
 
@@ -60,10 +58,11 @@
     }
 
     .profile-picture {
-        max-width: 120px; /* Smaller profile picture on mobile */
+        max-width: 200px; /* Smaller profile picture on mobile */
     }
 
     #bio {
         font-size: 1rem;
     }
 }
+

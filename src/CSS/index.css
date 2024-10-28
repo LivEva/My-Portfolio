@@ -5,9 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo+Play+Display&display=swap");
 
 
-
-
-
 body {
 
     background-image: url('../CSS/background.jpg');
@@ -20,6 +17,8 @@ body {
     font-family: 'Bungee Tint';
     margin: 10px;
     padding: 10px;
+    display: flex;
+    align-items: center;
     
 }
 
