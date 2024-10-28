@@ -1,5 +1,9 @@
 import 'animate.css';
 import { Link, NavLink } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
 
 const NavBar = () => {
 
