@@ -5,6 +5,8 @@
     padding: 20px;
     max-width: 800px; /* Adjust the width as needed */
     margin: auto; /* Centers the container */
+  
+    
    
 }
 
@@ -20,6 +22,7 @@
 .app-image-description {
     text-align: center; /* Center-aligns the image and brief description */
     margin: 20px 0; /* Adds vertical space around this section */
+
     
 }
 
@@ -31,7 +34,7 @@
 
 .brief-description {
     font-style: italic; /* Style for brief description */
-    margin-top: 10px; /* Space above the brief description */
+    margin-top: 20px; /* Space above the brief description */
     
 }
 
@@ -39,7 +42,7 @@
     text-align: left; /* Aligns details text to the left */
     width: 100%; /* Ensures the details take full width */
     margin-top: 20px; /* Adds space above the details section */
-    background-color: rgb(242, 223, 227);
+    background-color: rgb(189, 230, 211);
     max-width: 800px;
     margin: 20px;
     padding: 20px;
@@ -49,18 +52,25 @@
 .logos-container {
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center-align logos horizontally */
-    flex-wrap: wrap; /* Allow logos to wrap to the next line on smaller screens */
-    margin-top: 20px; /* Space above the logos */
-    gap: 20px; /* Space between logos */
+     /* Space above the logos */
+    gap: 30px; /* Space between logos */
+    margin-bottom: 10px;
+    max-width: 200px;
+    flex: 1 1 50px;
+    
 }
 
 .logo {
-    max-width: 80px; /* Limit the size of logos */
+    max-width: 100px; /* Limit the size of logos */
     height: auto; /* Maintain aspect ratio */
-    transition: transform 0.2s; /* Smooth transition for hover effect */
+    transition: transform 0.1s; /* Smooth transition for hover effect */
+   
+    display: flex;
+    flex: 1 1 200px;
+
 }
 
 .logo:hover {
-    transform: scale(1.1); /* Scale up logo on hover for effect */
+    transform: scale(1.5); /* Scale up logo on hover for effect */
 }
 

@@ -11,9 +11,11 @@ const PlantAppPageContent = ({ appInfo }) => {
                 <p className="app-type">{appInfo.app_type}</p>
 
             </div>
+
+            
             <div className="app-image-description">
 
-                <img src={appInfo.image} alt="image of app" className="app-image" />
+                <img src={appInfo.image}className="app-image" />
 
                 <p className="brief-description">
                     
@@ -21,13 +23,6 @@ const PlantAppPageContent = ({ appInfo }) => {
                     
             </div>
 
-            <div className="app-details">
-
-                <p>{appInfo.app_description}</p>
-           
-                <p>{appInfo.work_description}</p>
-            </div>
-          
             <div className="logos-container">
 
 
@@ -39,7 +34,16 @@ const PlantAppPageContent = ({ appInfo }) => {
 
                 <img src="https://www.svgrepo.com/show/354090/mongodb.svg" alt="mongoDb logo" className="logo" />
 
+        </div>
+
+            <div className="app-details">
+
+                <p>{appInfo.app_description}</p>
+           
+                <p>{appInfo.work_description}</p>
             </div>
+          
+           
         </div>
     );
 };

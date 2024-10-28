@@ -16,27 +16,28 @@
     justify-content: center;
     align-items: start;
     margin: 40px;
- 
 
    
 }
 
-.description{
+.certifications p{
 
     background-color: rgb(242, 223, 227);
     width: 500px;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    align-items: start;
    
 
 }
+
+
 
 .certificate-image {
   flex: 1 2 100px; /* Grow and shrink, min width of 300px */
   max-width: 500px; /* Maximum width for each card */
   border: 1px solid #ddd;
-  margin: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
