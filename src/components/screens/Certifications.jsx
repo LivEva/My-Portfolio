@@ -7,7 +7,7 @@ const Certifications = () => {
 
   return (
 
-    <div>
+    <div className='cert-container'>
 
         {certificates.map((certificate, id) => {
 

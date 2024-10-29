@@ -1,0 +1,88 @@
+/* Each project card shown on projects list */
+.card-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 300px; 
+    max-width: 500px; 
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: rgba(182, 182, 182, 0.235);
+}
+
+/* Single project page styling */
+
+
+/* BACKGROUNDS */
+
+.tea-page-container{
+    background-image: url('../assets/tea-background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.plant-page-container{
+
+    background-image: url('../assets/tea-background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 200px; 
+    max-width: 700px; 
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+  
+   
+}
+
+.logo{
+
+    width: 30%;
+
+
+}
+
+.logos-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app-details{
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+

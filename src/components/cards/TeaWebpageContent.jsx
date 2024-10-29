@@ -1,7 +1,9 @@
+import '../../CSS/singleProjects.css'
+
 const TeaWebpageContent = ({teaInfo}) => {
 
     return (
-        <div className="plant-app-content-container">
+        <div className="tea-page-container">
 
             <div className="app-header">
 
@@ -10,7 +12,8 @@ const TeaWebpageContent = ({teaInfo}) => {
                 <p className="app-type">{teaInfo.app_type}</p>
 
             </div>
-            <div className="app-image-description">
+
+            <div className="image-description">
 
                 <img src={teaInfo.image} className="app-image" />
 
@@ -29,7 +32,6 @@ const TeaWebpageContent = ({teaInfo}) => {
         
         </div>
     );
-
 
 }
 

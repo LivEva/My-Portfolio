@@ -9,8 +9,6 @@ export default [
         work_description: "This app was inspired by the concept of Reddit. Using an API of articles I created a website using the pop culture term \"That\'s the tea\" to present up to date articles ranging from subjects like coding, football and food.",
         app_description: "This project started with the building of the backend. Where I used tech such as SQL PostGress RestingAPI, Node.js, Express.js, Supertest and Husky to ensure only clean code is saved."
 
-    },
-    {
-
     }
+   
 ]

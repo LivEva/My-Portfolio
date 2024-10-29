@@ -1,13 +1,14 @@
 import plantApp from '../../data/projects'
 import PlantAppPageContent from '../cards/plantAppPageContent'
+import '../../CSS/singleProjects.css'
 
 const PlantAppPage = () => {
 
-    console.log(plantApp)
-
     return (
 
-        <>
+      <div className='plant-page-container'>
+
+        <div className='project-container'>
 
       {plantApp.map((appInfo, id) => {
 
@@ -20,7 +21,9 @@ const PlantAppPage = () => {
 
       })}
         
-        </>
+        </div>
+
+        </div>
     )
 
 

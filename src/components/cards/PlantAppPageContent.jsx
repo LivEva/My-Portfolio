@@ -1,8 +1,12 @@
-import '../../CSS/plantAppPage.css';
+import '../../CSS/singleProjects.css'
 
 const PlantAppPageContent = ({ appInfo }) => {
+
     return (
-        <div className="plant-app-content-container">
+
+        <div className='plant-page-container'>
+
+           <div className='project-container'>
 
             <div className="app-header">
 
@@ -43,7 +47,8 @@ const PlantAppPageContent = ({ appInfo }) => {
                 <p>{appInfo.work_description}</p>
             </div>
           
-           
+            </div>
+
         </div>
     );
 };

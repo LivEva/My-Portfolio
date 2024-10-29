@@ -76,17 +76,11 @@ h2{
   gap: 5px; /* Optional: Adds space between the cards */
   justify-content: space-around; /* Optional: Aligns the cards horizontally */
   padding: 20px;
+
 }
 
-/* Style for each individual project card */
-.project-container {
-  flex: 1 1 300px; /* Grow and shrink, min width of 300px */
-  max-width: 500px; /* Maximum width for each card */
-  border: 1px solid #ddd;
-  padding: 30px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+
+
 
 .nav-item{
 
