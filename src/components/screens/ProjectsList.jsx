@@ -11,7 +11,7 @@ const ProjectLists = () => {
 
             <PlantAppCard />
 
-            <TeaWebsiteCard/>
+            <TeaWebsiteCard />
 
         </div>
     )

@@ -1,11 +1,12 @@
 import TeaProjectInfo from '../../data/teaProject'
 import TeaWebpageContent from '../cards/TeaWebpageContent';
+import '../../CSS/teaPage.css'
 
 const TeaPage = () => {
 
     return (
 
-        <div>
+        <div className='tea-page-container'>
 
             {TeaProjectInfo.map((teaInfo, id) => {
 

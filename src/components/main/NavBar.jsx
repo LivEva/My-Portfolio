@@ -9,7 +9,7 @@ const NavBar = () => {
 
     return (
 
-<>
+<div className='nav-bar-container'>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       
       <div className="container-fluid">
@@ -42,7 +42,8 @@ const NavBar = () => {
 
     
     </nav>
-</>
+    
+</div>
 
     )
 

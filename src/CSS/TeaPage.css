@@ -1,0 +1,8 @@
+.tea-page-container{
+    background-image: url('../assets/tea-background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
