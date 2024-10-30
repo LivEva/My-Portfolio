@@ -4,29 +4,18 @@ const PlantAppPageContent = ({ appInfo }) => {
 
     return (
 
-        <div className='plant-page-container'>
-
-           <div className='project-container'>
-
-            <div className="app-header">
+           <div className='content'>
 
                 <h1>{appInfo.project_name}</h1>
 
-                <p className="app-type">{appInfo.app_type}</p>
+                <h2>{appInfo.app_type}</h2>
 
-            </div>
-
-            
-            <div className="app-image-description">
-
-                <img src={appInfo.image}className="app-image" />
+                <img id='project-image' src={appInfo.image}/>
 
                 <p className="brief-description">
                     
                     {appInfo.brief_description}</p>
-                    
-            </div>
-
+            
             <div className="logos-container">
 
 
@@ -49,7 +38,7 @@ const PlantAppPageContent = ({ appInfo }) => {
           
             </div>
 
-        </div>
+      
     );
 };
 

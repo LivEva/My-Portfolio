@@ -6,8 +6,6 @@ const PlantAppPage = () => {
 
     return (
 
-      <div className='plant-page-container'>
-
         <div className='project-container'>
 
       {plantApp.map((appInfo, id) => {
@@ -15,15 +13,11 @@ const PlantAppPage = () => {
         return (
 
             <PlantAppPageContent key={id} appInfo={appInfo}/>
-
         )
-
-
       })}
         
         </div>
 
-        </div>
     )
 
 
