@@ -3,32 +3,38 @@ import '../../CSS/singleProjects.css'
 const TeaWebpageContent = ({teaInfo}) => {
 
     return (
-        <div className="tea-page-container">
 
-            <div className="app-header">
+        <div className="container">
 
-                <h1>{teaInfo.project_name}</h1>
+            <section className='project-image'>
 
-                <p className="app-type">{teaInfo.app_type}</p>
+            <img src={teaInfo.image} id="app-image" />
 
-            </div>
+            </section>
 
-            <div className="image-description">
+            <section className="app-header">
 
-                <img src={teaInfo.image} className="app-image" />
+                <h1 id='project-name'>{teaInfo.project_name}</h1>
 
-                <p className="brief-description">
+                <p id="project-type">{teaInfo.app_type}</p>
+
+            </section>
+
+            <section className="description">
+
+                <p>
                     
                     {teaInfo.brief_description}</p>
                     
-            </div>
+            </section>
 
-            <div className="app-details">
+            <section className="app-details">
 
                 <p>{teaInfo.app_description}</p>
            
                 <p>{teaInfo.work_description}</p>
-            </div>
+
+            </section>
         
         </div>
     );

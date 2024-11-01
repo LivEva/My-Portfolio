@@ -4,19 +4,31 @@ const PlantAppPageContent = ({ appInfo }) => {
 
     return (
 
-           <div className='content'>
+           <div className='container'>
+
+            <section className='project-image'>
+
+                <img id='project-image' src={appInfo.image}/>
+
+                </section>
+
+                <section className='app-header' >
 
                 <h1>{appInfo.project_name}</h1>
 
                 <h2>{appInfo.app_type}</h2>
 
-                <img id='project-image' src={appInfo.image}/>
+                </section>
 
-                <p className="brief-description">
+                <section className='description' >
+
+                <p>
                     
                     {appInfo.brief_description}</p>
+
+                </section>
             
-            <div className="logos-container">
+            <section className="logos-container">
 
 
                 <img src="https://www.svgrepo.com/show/353722/expo.svg" alt="expo logo" className="logo" />
@@ -27,14 +39,16 @@ const PlantAppPageContent = ({ appInfo }) => {
 
                 <img src="https://www.svgrepo.com/show/354090/mongodb.svg" alt="mongoDb logo" className="logo" />
 
-        </div>
+        </section>
 
-            <div className="app-details">
+        <section className='app-details' >
 
-                <p>{appInfo.app_description}</p>
+            <p>{appInfo.app_description}</p>
            
-                <p>{appInfo.work_description}</p>
-            </div>
+            <p>{appInfo.work_description}</p>
+
+        </section>
+
           
             </div>
 

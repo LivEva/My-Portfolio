@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import profile from '../../assets/profilePicture.jpeg'
 import '../../CSS/home.css'
+import SkillsCard from '../cards/SkillsCard';
 
 
 
@@ -21,6 +22,8 @@ const HomeScreen = () => {
                 </p>
                 
             </div>
+
+            <SkillsCard />
 
            
         </div>

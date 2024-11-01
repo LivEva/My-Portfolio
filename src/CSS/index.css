@@ -23,9 +23,6 @@ body {
     
 }
 
-.entire-container{
-  background-image: url('../CSS/background.jpg');
-}
 
 h2{
 
@@ -40,14 +37,7 @@ h2{
 }
 
 /* Ensure that the page container takes the full height of the viewport */
-.page-container {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
-  height: 80vh; /* Full viewport height */
-  text-align: center; /* Ensure text is centered */
-}
+
 
 #certificate {
   width: 50%;
