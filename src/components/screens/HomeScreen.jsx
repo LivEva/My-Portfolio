@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import profile from '../../assets/profilePicture.jpeg'
 import '../../CSS/home.css'
 import SkillsCard from '../cards/SkillsCard';
-import github from '../../assets/github.png'
+import Links from '../cards/Links';
 
 
 
@@ -11,13 +11,13 @@ const HomeScreen = () => {
 
 
     return (
-        <div className="page-container">
+        <div className="page-container">             
            
             <div className="content-wrap">
-               
-                <img src={profile} className='profile-picture' />
 
-                <img src={github} alt="symbol for github" id='symbols' />
+               <img src={profile} className='profile-picture' />
+
+               <Links />
 
                 <p id='bio'>My name is Olivia, and I am a Junior Software Developer.</p>
 

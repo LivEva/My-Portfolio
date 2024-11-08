@@ -2,10 +2,20 @@
 .footer-container {
     background-color: #333;
     color: white;
-    text-align: center;
-    justify-content: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
     padding: 10px 0;
     position: absolute;
     width: 100%;
     font-family: 'Bungee Tint';
+   flex-shrink: 1;
   }
+
+  .footer{
+    margin: 10px;
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+

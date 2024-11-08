@@ -1,4 +1,5 @@
 import '../../CSS/footer.css'
+import Links from '../cards/Links';
 
 const Footer = () => {
 
@@ -9,6 +10,12 @@ const Footer = () => {
         <footer className="footer">
             <p id="footer-text">&copy; {new Date().getFullYear()} My Website | All rights reserved.</p>
             </footer>
+
+            <section>
+
+                <Links />
+
+            </section>
         
         </div>
     )
