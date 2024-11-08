@@ -1,51 +1,23 @@
 
 .page-container {
     display: flex;
-   flex-wrap: wrap;
-    align-items: start; /* Center-aligns the content horizontally */
+    flex-wrap: wrap;
+    align-items: start;
     justify-content: center;
-    padding: 20px;
-   /* Adjust the width as needed */
-    margin: auto; /* Centers the container */
-    gap: 20px;
+    padding: 30px;
 
-}
-
-/* Main content wrapper */
-.content-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-}
-
-/* Profile picture styling */
-.profile-picture {
-    width: 100%;
-    max-width: 300px; /* Limit the max width */
-    height: auto; /* Keep aspect ratio */
-    border-radius: 25%; /* Circular profile picture */
-    object-fit: cover; /* Cover the area without stretching */
-}
-
-/* Bio paragraph */
-#bio {
-    font-size: 1.1rem;
-    color: #333; /* Darker color for readability */
-    margin: 0;
-    line-height: 1.6;
 }
 
 /* Heading styling */
 .page-container h2 {
     font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.profile-container p{
+    color: grey;
+    font-size: 1rem;
+    max-width: 600px;
 }
 
 /* Responsive adjustments */
@@ -56,17 +28,68 @@
         margin-top: 20px;
     }
 
-    .content-wrap {
-        padding: 15px;
-    }
-
     .profile-picture {
         max-width: 200px; /* Smaller profile picture on mobile */
     }
-
-    #bio {
-        font-size: 1rem;
-    }
 }
 
+/* Main content wrapper */
+.content-wrap {
+    max-width: 600px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.content-wrap h2{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    width: 100%;
+    max-width: 300px;
+    height: auto; 
+    border-radius: 25%; 
+    object-fit: cover; 
+}
+/* profile picture, job title and links */
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    width: 100%;
+    margin: 10px;
+    padding-right: 10px;
+
+}
+
+.symbols{
+    width: 2em;
+
+}
 

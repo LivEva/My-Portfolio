@@ -1,4 +1,5 @@
 import '../../CSS/singleProjects.css'
+import teaWebsite from '../../assets/teaWebsite.jpeg'
 
 const TeaWebpageContent = ({teaInfo}) => {
 
@@ -8,7 +9,7 @@ const TeaWebpageContent = ({teaInfo}) => {
 
             <section className='project-image'>
 
-            <img src={teaInfo.image} id="app-image" />
+            <img src={teaWebsite}id="app-image" />
 
             </section>
 

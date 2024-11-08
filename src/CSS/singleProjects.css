@@ -14,18 +14,6 @@
     background-color: rgba(182, 182, 182, 0.235);
 }
 
-.container{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 500px;
-    padding: 10px;
-}
-
-
-
 .project-image img{
     width: 100%;
 }
@@ -45,23 +33,6 @@
 }
 
 
-.description{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-}
-
-
-.app-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
 .logos-container{
     display: flex;
     width: 1fr;
@@ -76,5 +47,18 @@
     width: 20%;
 }
 
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 300px; 
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(182, 182, 182, 0.235);
+}
 
 

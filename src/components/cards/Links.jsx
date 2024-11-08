@@ -1,7 +1,7 @@
 import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import mail from '../../assets/mail.png'
-import '../../CSS/links.css'
+import '../../CSS/home.css'
 
 const Links = () => {
 

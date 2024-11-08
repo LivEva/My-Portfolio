@@ -6,13 +6,24 @@ const SkillsCard = () => {
 
     <div className="content-wrap">
 
-        <h2 className="bio">Skills</h2>
+         <h2>Technical Skills</h2>
 
-        <p className="bio">Language: JavaScript, using Node.js and browsers as environment. 
-        Testing: Test Driven Development (TDD), Jest, Supertest, Husky.
-        Back-End: SQL, PSQL, seeding, migrations, MongoDb.
-        Front-End: React.js, React native, HTML, CSS, Lighthouse and other accessibility tools. Hosting: Supabase, Render.
-        Soft skills: Paired programming, technical communication, wire-framing, agile and SCRUM methodologies.</p>
+        <section className="bio">
+
+        <ul>
+        <h3>Languages</h3>
+        <li>JavaScript, using Node.js and browsers as environment. </li>
+        <h3>Testing</h3>
+        <li>Test Driven Development (TDD), Jest, Supertest, Husky.</li>
+        <h3>Back-end</h3>
+        <li>SQL, PSQL, seeding, migrations, MongoDb.</li>
+        <h3>Front-end</h3>
+        <li>React.js, React native, HTML, CSS, Lighthouse and other accessibility tools. Hosting: Supabase, Render.</li>
+        <h3>Soft Skills</h3>
+        <li>Paired programming, technical communication, wire-framing, agile and SCRUM methodologies.</li>
+        </ul>
+
+        </section>
         
 
     </div>
