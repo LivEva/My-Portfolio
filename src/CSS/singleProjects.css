@@ -41,7 +41,7 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
-        width: 80%;
+        width: 90%;
     }
     .logos-container{
         max-width: 100%;
@@ -53,8 +53,8 @@
 
 /* Main content wrapper */
 .container {
-
     padding: 20px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

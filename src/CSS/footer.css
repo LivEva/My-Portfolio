@@ -26,6 +26,11 @@
     margin-bottom: 10px;
 }
 
+.logos a :hover{
+  transform: scale(1.2);
+
+}
+
 .symbols{
     width: 2em;
 }

@@ -6,52 +6,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-body {
 
-    background-image: url('../CSS/background.jpg');
-    background-size: 100%;
-}
-
-#main-title{
-
-    color:black;
+.main-title{
     font-family: 'Bungee Tint';
     margin: 10px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.main-title h1{
+  font-size: 2.4em;
 }
 
 
 h2{
-
-  color:black;
   font-family: 'Bungee Tint';
-
 }
-
-#bio{
-  font-family: "Noto Serif Display";
-  
-}
-
-/* Ensure that the page container takes the full height of the viewport */
 
 
 #certificate {
   width: 50%;
 }
 
-
-
 .image{
-
  width: 100%;
  display: flex;
  flex-wrap: wrap;
-
 }
 
 .image:hover{
@@ -63,25 +45,18 @@ h2{
 /* Wrapper for multiple ProjectCards */
 .project-list {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping if there are too many items */
-  gap: 5px; /* Optional: Adds space between the cards */
-  justify-content: space-around; /* Optional: Aligns the cards horizontally */
-  padding: 20px;
-
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
-
-
 .nav-item{
-
   font-family: 'Bungee Tint';
 
 }
 
 .nav-bar-container{
   box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
-
 }
 
 

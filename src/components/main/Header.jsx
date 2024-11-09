@@ -6,7 +6,7 @@ const Header = () => {
 
    return (
 
-   <div id='main-title'>
+   <div className='main-title'>
    
  <h1 className="animate__animated animate__lightSpeedInRight">  <Link to="/">. OLIVIA GUEST .</Link></h1>
 
