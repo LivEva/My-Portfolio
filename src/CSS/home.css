@@ -67,7 +67,6 @@
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
-
 }
 
 .bio{
@@ -79,7 +78,9 @@
     list-style: none;
 }
 
-
+.bio h3{
+    color: rgb(180, 14, 14);
+}
 
 .logos{
     display: flex;
@@ -89,11 +90,24 @@
     width: 100%;
     margin: 10px;
     padding-right: 10px;
-
 }
 
 .symbols{
     width: 2em;
 
 }
+
+.experience ul{
+    list-style: none;
+}
+
+.experience li{
+    margin-bottom: 20px;
+}
+
+.experience h3{
+    color: rgb(180, 14, 14);
+}
+
+
 
