@@ -26,6 +26,8 @@ const PlantAppPageContent = ({ appInfo }) => {
                     
                     {appInfo.brief_description}</p>
 
+                    <p>View project: <a href="https://www.youtube.com/watch?v=3zPU6vK9B9M&t=1s"> {appInfo.webAddress}</a></p>
+
                 </section>
             
             <section className="logos-container">

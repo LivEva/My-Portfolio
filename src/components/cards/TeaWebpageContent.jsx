@@ -26,6 +26,8 @@ const TeaWebpageContent = ({teaInfo}) => {
                 <p>
                     
                     {teaInfo.brief_description}</p>
+
+                    <p>View project: <a href="https://thats-the-tea.netlify.app"> {teaInfo.webAddress}</a></p>
                     
             </section>
 
