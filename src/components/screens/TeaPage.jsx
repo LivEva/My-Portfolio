@@ -6,8 +6,6 @@ const TeaPage = () => {
 
     return (
 
-        <div className='tea-page-container'>
-
         <div className='project-container'>
 
             {TeaProjectInfo.map((teaInfo, id) => {
@@ -21,7 +19,6 @@ const TeaPage = () => {
             
         </div>
 
-        </div>
     )
 
 }

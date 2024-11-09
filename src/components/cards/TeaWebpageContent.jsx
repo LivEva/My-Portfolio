@@ -9,15 +9,15 @@ const TeaWebpageContent = ({teaInfo}) => {
 
             <section className='project-image'>
 
-            <img src={teaWebsite}id="app-image" />
+            <img src={teaWebsite} />
 
             </section>
 
             <section className="app-header">
 
-                <h1 id='project-name'>{teaInfo.project_name}</h1>
+                <h2>{teaInfo.project_name}</h2>
 
-                <p id="project-type">{teaInfo.app_type}</p>
+                <p>{teaInfo.app_type}</p>
 
             </section>
 
@@ -27,6 +27,18 @@ const TeaWebpageContent = ({teaInfo}) => {
                     
                     {teaInfo.brief_description}</p>
                     
+            </section>
+
+            <section className="logos-container">
+
+                    <img src="https://www.svgrepo.com/show/353722/expo.svg" alt="expo logo" className="logo" />
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZcpvdnbhcRhQ_D-Gxk2yO_MEYCH6hGioKYRiM_rQjZJPez2kxbJ-ODzXYUFtU2uTh78&usqp=CAU" alt="react native logo" className="logo" />
+
+                    <img src="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png" alt="firebase logo" className="logo" />
+
+                    <img src="https://www.svgrepo.com/show/354090/mongodb.svg" alt="mongoDb logo" className="logo" />
+
             </section>
 
             <section className="app-details">
