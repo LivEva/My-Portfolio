@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import '../../CSS/home.css'
 import SkillsCard from '../cards/SkillsCard';
 import Profile from '../cards/Profile';
+import ExperienceCard from '../cards/ExperienceCard';
 
 
 
@@ -20,6 +21,8 @@ const HomeScreen = () => {
             <section className='content-wrap'>
 
                 <SkillsCard />
+
+                <ExperienceCard />
 
             </section>
 

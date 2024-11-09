@@ -13,6 +13,9 @@ const Certifications = () => {
 
             return <CertificateCard key={id} certificate={certificate}/>
 
+            
+            
+
 
         })}
 

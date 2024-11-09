@@ -8,15 +8,15 @@ const PlantAppPageContent = ({ appInfo }) => {
 
             <section className='project-image'>
 
-                <img id='project-image' src={appInfo.image}/>
+                <img src={appInfo.image}/>
 
                 </section>
 
                 <section className='app-header' >
 
-                <h1>{appInfo.project_name}</h1>
+                <h2>{appInfo.project_name}</h2>
 
-                <h2>{appInfo.app_type}</h2>
+                <h3>{appInfo.app_type}</h3>
 
                 </section>
 
@@ -29,7 +29,6 @@ const PlantAppPageContent = ({ appInfo }) => {
                 </section>
             
             <section className="logos-container">
-
 
                 <img src="https://www.svgrepo.com/show/353722/expo.svg" alt="expo logo" className="logo" />
 

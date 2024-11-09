@@ -72,7 +72,11 @@
 
 .bio{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+}
+
+.bio ul{
+    list-style: none;
 }
 
 
