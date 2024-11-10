@@ -1,6 +1,6 @@
 import '../../CSS/singleProjects.css'
 import reactLogo from '../../assets/reactLogo.png'
-import plantsWallpaper from '../../assets/plants.jpeg'
+import plantApp from '../../assets/plantAppWelcome.png'
 
 const PlantAppPageContent = ({ appInfo }) => {
 
@@ -10,7 +10,7 @@ const PlantAppPageContent = ({ appInfo }) => {
 
             <section className='project-image'>
 
-                <img src={plantsWallpaper}/>
+                <img src={plantApp}/>
 
                 </section>
 
