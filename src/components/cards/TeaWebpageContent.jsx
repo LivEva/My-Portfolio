@@ -1,7 +1,7 @@
 import '../../CSS/singleProjects.css'
 import teaWebsite from '../../assets/teaWebsite.jpeg'
 import reactLogo from '../../assets/reactLogo.png'
-import SQL from '../../assets/SQL-lOGO.png'
+import sqlLogo from '../../assets/sqlLogo.png'
 import NodeLogo from '../../assets/NodeLogo.png'
 const TeaWebpageContent = ({teaInfo}) => {
 
@@ -39,7 +39,7 @@ const TeaWebpageContent = ({teaInfo}) => {
 
                     <img src={NodeLogo} alt="Node.js logo" className="logo" />
 
-                    <img src={SQL} alt="PostgreSQL logo" className="logo" />
+                    <img src={sqlLogo} alt="PostgreSQL logo" className="logo" />
 
 
             </section>
