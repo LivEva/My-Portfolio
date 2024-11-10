@@ -1,6 +1,7 @@
 import profile from '../../assets/profilePicture.jpeg'
 import Links from '../cards/Links'
 import '../../CSS/home.css'
+import locationPin from '../../assets/locationPin.png'
 
 const Profile = () => {
 
@@ -12,7 +13,7 @@ const Profile = () => {
 
             <h2>Junior Software Developer</h2>
 
-            <p>Manchester, UK</p>
+            <p><img src={locationPin} alt="" id='locationPin'/>Manchester, UK</p>
 
             <Links />
 

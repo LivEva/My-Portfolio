@@ -15,7 +15,6 @@
 }
 
 .profile-container p{
-    color: grey;
     font-size: 1rem;
     max-width: 600px;
 }
@@ -71,7 +70,8 @@
 
 .bio{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+
 }
 
 .bio ul{
@@ -80,6 +80,10 @@
 
 .bio h3{
     color: rgb(180, 14, 14);
+}
+
+#locationPin{
+    width: 1.5em;
 }
 
 .logos{
@@ -102,11 +106,16 @@
 }
 
 .experience li{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .experience h3{
     color: rgb(180, 14, 14);
+}
+
+.experience h4{
+    font-size: 1em;
+    color: rgb(113, 9, 9);
 }
 
 
