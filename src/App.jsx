@@ -5,7 +5,7 @@ import HomeScreen from './components/screens/HomeScreen';
 import NavBar from './components/main/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectLists from './components/screens/ProjectsList';
-import PlantAppPage from './components/screens/PlantAppPage';
+import PlantAppPage from '../src/components/screens/PlantAppPage'
 import TeaPage from './components/screens/TeaPage';
 import Certifications from './components/screens/Certifications';
 

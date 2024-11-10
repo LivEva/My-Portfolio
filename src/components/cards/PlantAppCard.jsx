@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const PlantAppCard = ({ project }) => {
+const PlantAppCard = () => {
 
     return (
 

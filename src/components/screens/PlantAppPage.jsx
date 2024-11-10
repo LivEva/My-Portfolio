@@ -1,5 +1,5 @@
 import plantApp from '../../data/projects'
-import PlantAppPageContent from '../cards/plantAppPageContent'
+import PlantAppPageContent from '../cards/PlantAppPageContent'
 import '../../CSS/singleProjects.css'
 
 const PlantAppPage = () => {
@@ -19,8 +19,6 @@ const PlantAppPage = () => {
         </div>
 
     )
-
-
 }
 
 export default PlantAppPage;
