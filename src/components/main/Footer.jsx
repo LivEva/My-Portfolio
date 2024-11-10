@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-container">
 
         <footer className="footer">
-            <p id="footer-text">&copy; {new Date().getFullYear()} Olivia Guest | All rights reserved.</p>
+            <p id="footer-text">&copy; {new Date().getFullYear()} | Olivia Guest</p>
             </footer>
 
             <section>
