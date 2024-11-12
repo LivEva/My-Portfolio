@@ -14,7 +14,7 @@ const Links = () => {
 
             <a href="https://www.linkedin.com/in/olivia-guest-4a7786328/"><img src={linkedin} alt="logo for linked in" className='symbols'/></a>
 
-            <a href=""><img src={mail} alt="symbol for mail" className='symbols'/></a>
+            <a href="mailto:OliviaG_SD@outlook.com? subject=subject text"><img src={mail} alt="symbol for mail" className='symbols'/></a>
 
         </section>  
         
