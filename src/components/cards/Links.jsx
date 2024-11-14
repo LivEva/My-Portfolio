@@ -17,8 +17,6 @@ const Links = () => {
             <a href="mailto:OliviaG_SD@outlook.com? subject=subject text"><img src={mail} alt="symbol for mail" className='symbols'/></a>
 
         </section>  
-        
-    
     )
 }
 
